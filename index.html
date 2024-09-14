@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>VSlow Text editor v1.0</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 style="text-align:center;">VSlow Text editor v1.0</h1>
+    <p style="text-align: center;">World's Slowest Text editor!</p>
+    <div class="letterinput">
+        <p id="letter" class="letterclass">A</p>
+        <button id="left" onclick="moveLeft()">Backspace</button>
+        <button id="up" onclick="moveUp()">↑</button>
+        <button id="down" onclick="moveDown()">↓</button>
+        <button id="right" onclick="moveRight()">Write</button>
+    </div>
+    <p id="text"></p>
+    <p style="position: absolute; bottom: 0; left: 50%; transform: translateX(-50%); text-align: center;">
+        Copyright 2024 CoderFlower.dev MIT License
+    </p>
+</body>
+</html>
+<script src="script.js"></script>
